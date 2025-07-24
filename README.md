@@ -1,16 +1,19 @@
-## Hi there 👋
+# LibreChat Docs
 
-<!--
-**yougpts/yougpts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Based on [Nextra](https://nextra.site/)
 
-Here are some ideas to get you started:
+## Local Development
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Pre-requisites: Node.js v20.19.0+ (or ^22.12.0 or >= 23.0.0), pnpm 9+
+
+1. Optional: Create env based on [.env.template](./.env.template)
+2. Run `pnpm i` to install the dependencies.
+3. Run `pnpm dev` to start the development server on localhost:3333
+4. Run `pnpm build` to build...
+5. Run `pnpm start` to start the production server on localhost:3333
+
+⚠️ **Note: try building prod before making a PR**
+
+## Bundle analysis
+
+Run `pnpm run analyze` to analyze the bundle size of the production build using `@next/bundle-analyzer`.

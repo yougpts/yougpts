@@ -1,0 +1,23 @@
+.next
+node_modules
+.vercel
+
+.env.local
+.env
+.env*.local
+.git
+
+# next sitemap
+public/robots.txt
+public/sitemap*.xml
+
+# we use pnpm
+package-lock.json
+yarn.lock
+
+
+# Mac
+.DS_Store
+
+# eslint
+.eslintcache
